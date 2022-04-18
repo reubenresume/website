@@ -1,0 +1,182 @@
+* {
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+
+/*body {
+	padding: 50px 0px 0px 0px;
+}*/
+hr {
+	margin: auto;
+	width: 80%;
+	color: grey;
+}
+
+.container {
+	/*padding: 50px 0px 0px 0px;*/
+	margin: 50px auto;
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	
+
+}
+
+aside, main section {
+	background-color: white;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px 5px #c9c9c9;
+	flex: 4;
+	/*height: auto;*/
+	margin-right: 20px;
+
+}
+
+main {
+	flex: 9;
+}
+
+main #first-section {
+	margin-bottom: 10px;
+}
+
+.personal-img {
+	width: 100%;
+  	height: auto;
+}
+
+.person-name {
+	color: #5c5c5c ;
+	font-size: 1.8vw;
+	margin: 5px;
+}
+
+.personal-details, .details-list {
+	font-size: 1.2vw;
+	padding: 25px;
+	list-style: none;
+	color:#009688;
+}
+
+.details-list {
+	padding-top: 0px;
+}
+
+.personal-details li{
+	margin: 5px 0px;
+	/*letter-spacing: .5px;*/
+}
+
+.personal-details li{
+	margin-right: 10px;
+
+}
+
+.details-list li {
+	margin: 15px 0px;
+}
+
+.head-section {
+	color: #5c5c5c;
+	padding: 25px;
+	margin: 0px;
+	font-size: 1.6vw;
+}
+
+.head-section i{
+	color: #009688;
+}
+
+.progress-back {
+	border: 1px solid grey;
+	border-radius: 15px;
+	height: 1.5em;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+.progress-text {
+	color: white;
+	text-align: center;
+}
+
+
+.progress {
+	height: 100%;
+	border-radius: 15px;
+	background-color: #009688;
+}
+
+.p-100 {width: 100%;}
+.p-95 {width: 95%;}
+.p-90 {width: 90%;}
+.p-85 {width: 85%;}
+.p-75 {width: 75%;}
+.p-30 {width: 30%;}
+
+
+.data-details {
+	width: 90%;
+	margin: auto;
+	padding: 40px 0px;
+	line-height: 1.5em;
+}
+
+.data-details h3{
+	font-size: 1.2vw;
+	color: #5c5c5c;
+	margin: 10px 0px;
+	line-height: 1em;
+	
+}
+
+.data-details > span{
+	color: #009688;
+	margin: 15px 0px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.green-span {
+	background-color:#009688;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: normal;
+	color: white;
+}
+
+.fa-calendar-alt {
+	margin: 0px 10px;
+}
+
+.data-details p {
+	color: #5c5c5c;
+	margin: 10px 0px;
+	letter-spacing: .5px;
+	line-height: 1.6;
+}
+
+footer {
+	margin-top: 30px; 
+	width: 100%;
+	height: 75px;
+	background-color: #009688;
+	text-align: center;
+	padding: 10px 0px;
+	color: white;
+	font-weight: bold;
+	line-height: 2;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2vw;
+	
+	
+	
+label{
+	width:100px;
+display:inline-block;}
+}
